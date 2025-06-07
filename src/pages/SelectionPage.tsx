@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import Card from '../components/Card';
 import type { Tile } from '../types';
 
-const API_URL = `${import.meta.env.VITE_API_URL}?postcode=NR32&area=Lowestoft`;
+// const API_URL = `${import.meta.env.VITE_API_URL}?postcode=NR32&area=Lowestoft`;
+
+const API_URL ='https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft';
 
 
 const SelectionPage: React.FC = () => {
